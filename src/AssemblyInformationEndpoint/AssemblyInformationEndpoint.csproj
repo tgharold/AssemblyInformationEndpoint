@@ -2,6 +2,26 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <WarningsAsErrors>true</WarningsAsErrors>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+    <Title>AssemblyInformationEndpoint</Title>
+    <Description>Common classes and code for providing the version endpoint.</Description>
+    <Authors>Thomas Harold</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>AssemblyInformation endpoint</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <PackageId>AssemblyInformationEndpoint</PackageId>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/tgharold/AssemblyInformationEndpoint</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
