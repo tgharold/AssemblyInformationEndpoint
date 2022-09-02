@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiExample", "examples\W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkMVCExample", "examples\FrameworkMVCExample\FrameworkMVCExample.csproj", "{A41D3339-20E9-4833-B015-2CFB0F487DFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyInformationEndpoint.Framework", "src\AssemblyInformationEndpoint.Framework\AssemblyInformationEndpoint.Framework.csproj", "{0BD5B430-BC4C-423F-87DC-69D6A3C8B470}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{A41D3339-20E9-4833-B015-2CFB0F487DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A41D3339-20E9-4833-B015-2CFB0F487DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A41D3339-20E9-4833-B015-2CFB0F487DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD5B430-BC4C-423F-87DC-69D6A3C8B470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD5B430-BC4C-423F-87DC-69D6A3C8B470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD5B430-BC4C-423F-87DC-69D6A3C8B470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD5B430-BC4C-423F-87DC-69D6A3C8B470}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{EAA8285A-6D81-482F-B98E-D40A36A422FD} = {CE858CFD-3442-43C9-B267-1672C80DD10E}
 		{33C938E7-0F42-4157-8164-B491CDD51C95} = {CE858CFD-3442-43C9-B267-1672C80DD10E}
 		{A41D3339-20E9-4833-B015-2CFB0F487DFA} = {CE858CFD-3442-43C9-B267-1672C80DD10E}
+		{0BD5B430-BC4C-423F-87DC-69D6A3C8B470} = {CE6526E9-3943-4BF0-89A5-243589001B1A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EEEA667D-4EEC-4A2D-901E-A51BC8D6BC73}
