@@ -4,6 +4,7 @@ namespace AssemblyInformationEndpoint
 {
     public class AssemblyInformationEndpointOptions
     {
-        public Uri Uri = new Uri("/_version");
+        [RelativeUrl]
+        public Uri Uri { get; set; }
     }
 }
