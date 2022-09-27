@@ -1,0 +1,1 @@
+# AssemblyInformationEndpoint.Net

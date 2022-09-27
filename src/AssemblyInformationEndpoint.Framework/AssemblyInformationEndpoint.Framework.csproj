@@ -50,5 +50,12 @@
       <Name>AssemblyInformationEndpoint</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Pack>true</Pack>
+      <PackagePath>\</PackagePath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
